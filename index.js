@@ -9,7 +9,7 @@ function printBadges(names) {
   return names;
 }
 
-printBadges(names);
+//printBadges(names);
 
 // function tailsNeverFails() {
 //   while (true) {
