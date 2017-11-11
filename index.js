@@ -1,3 +1,12 @@
+const names =["Bob","Jim","Sal"];
+
+function printBadges(names) {
+  for (let i = 0; i < names.length; i++) {
+    console.log(`Welcome ${names[i]}! You are employee #${i+1}.`);
+  }
+  return names;
+}
+
 // /*We're going to print out some welcome badges for new Flatbook employees. Build a function named `printBadges()` that accepts one argument, an array of employee names. Create a `for` loop with a counter that starts at `0` and increments at the end of each loop. The condition should halt the `for` loop after the last name in the array is printed out in the loop body.
 // Inside the loop, use `console.log()` to print out a badge for each employee, as follows:
 // ```js
@@ -8,16 +17,8 @@
 // // => ["Ada", "Brendan", "Ali"]
 // ```
 // After the loop completes, have the function return the original array.
-// 
+//
 
-const names =["Bob","Jim","Sal"];
-
-function printBadges(names) {
-  for (let i = 0; i < names.length; i++) {
-    console.log(`Welcome ${names[i]}! You are employee #${i+1}.`);
-  }
-  return names;
-}
 
 //printBadges(names);
 
