@@ -16,5 +16,5 @@ function tailsNeverFails() {
     let tails = 1;
     tails++;
   }
-  return `You got ${tails} tails in a row!`;
+  console.log(`You got ${tails} tails in a row!`0;
 }
