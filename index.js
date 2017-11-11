@@ -1,3 +1,5 @@
+
+//
 const names =["Bob","Jim","Sal"];
 
 function printBadges(names) {
@@ -7,12 +9,12 @@ function printBadges(names) {
   return names;
 }
 
-function tailsNeverFails() {
-  while (true) {
-
-  }
-  let i = 0;
-  i++;
-  console.log(`You got ${i} tails in a row!` )
-}
-tailsNeverFails();
+// function tailsNeverFails() {
+//   while (true) {
+// 
+//   }
+//   let i = 0;
+//   i++;
+//   console.log(`You got ${i} tails in a row!` )
+// }
+// tailsNeverFails();
