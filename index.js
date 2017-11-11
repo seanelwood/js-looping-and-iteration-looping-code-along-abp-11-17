@@ -12,8 +12,8 @@ function maybeTrue() {
 }
 
 function tailsNeverFails() {
+  let tails = 0;
   while (maybeTrue()) {
-    let tails = 1;
     tails++;
   }
   console.log(`You got ${tails} tails in a row!`);
