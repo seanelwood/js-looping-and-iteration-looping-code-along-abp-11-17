@@ -9,9 +9,11 @@ function printBadges(names) {
   return names;
 }
 
+printBadges(names);
+
 // function tailsNeverFails() {
 //   while (true) {
-// 
+//
 //   }
 //   let i = 0;
 //   i++;
